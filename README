@@ -1,0 +1,32 @@
+Hash-Server version 0.01
+========================
+
+Hash::Server gives any hash (though most likely a tied one) a
+memcached-like interface. Why? Because sometimes it's nice to distribute
+a hash, and memcached clients are ubiquitous.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Net::Daemon
+
+COPYRIGHT AND LICENCE
+
+Put the correct copyright and licence information here.
+
+Copyright (C) 2007 by Daniel Rench
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.7 or,
+at your option, any later version of Perl 5 you may have available.
+
