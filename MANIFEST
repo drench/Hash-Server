@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Hash-Server.t
+lib/Hash/Server.pm
